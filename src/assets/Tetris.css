@@ -1,0 +1,70 @@
+.tetris-field {
+    background: black;
+    border: 2px solid white;
+    border-radius: 4px;
+}
+
+.tetris-block {
+    width: 3vh;
+    height: 3vh;
+    float: left;
+    border: 1px solid #80808070;
+}
+
+.tetris-black {
+    background: black;
+}
+
+.tetris-yellow {
+    background: #feca57;
+}
+
+.tetris-red {
+    background: #ff6b6b;
+}
+
+.tetris-blue {
+    background: #54a0ff;
+}
+
+.tetris-purple {
+    background: #5f27cd;
+}
+
+.tetris-green {
+    background: #10ac84;
+}
+
+.tetris-pink {
+    background: #f368e0;
+}
+
+.tetris-orange {
+    background: #ff9f43;
+}
+
+.btn-retro {
+    border-bottom: 6px inset rgba(0, 0, 0, .5);
+    border-left: 6px inset rgba(0, 0, 0, .5);
+    border-right: 6px inset rgba(255, 255, 255, .5);
+    border-top: 6px inset rgba(255, 255, 255, .5);
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'VT323', monospace;
+    font-size: 1.2rem;
+    min-width: 100px;
+    padding: .5rem;
+    text-transform: uppercase;
+    width: auto;
+}
+
+.btn-primary {
+    background: #881400;
+}
+
+.btn-primary:focus,
+.btn-primary:hover {
+    background: #A81000;
+}
